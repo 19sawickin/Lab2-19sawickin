@@ -17,7 +17,7 @@ public class App extends Application {
     public void start(Stage primaryStage) {
         // DO NOT MODIFY THE FOLLOWING LINE.
         SupportMain main = new SupportMain(primaryStage);
-
+        main.addVideoPlayer(new VideoPlayer());
         // Add any other method calls you may need here.
     }
 }
